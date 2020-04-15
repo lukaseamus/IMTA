@@ -1,0 +1,5 @@
+id,plant,source,concentration,mean,se,n,reference
+A1,Agarophyton vermiculophyllum,"Modiolus modiolus, Crenomytilus grayanus, Mytilus trossulus",57,6.5,1,5,Skriptsova and Miroshnikova (2011)
+U1,Undaria pinnatifida,"Modiolus modiolus, Crenomytilus grayanus, Mytilus trossulus",64,13.1,0.4,5,Skriptsova and Miroshnikova (2011)
+C1,Codium fragile,artificial,150,19.2,0.9,3,Kang et al. (2008)
+A2,Agarophyton vermiculophyllum,artificial,150,5.7,0.07,4,Abreu et al. (2011)

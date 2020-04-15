@@ -1,0 +1,4 @@
+id,plant,animal,mean.control,se.control,n.control,mean.imta,se.imta,n.imta,increase,reference
+A1,Agarophyton chilense,"Oncorhynchus mykiss, Oncorhynchus kisutch",3.75,1,30,9.3,1.5,30,148,Abreu et al. (2009)
+A2,Agarophyton chilense,"Oncorhynchus mykiss, Oncorhynchus kisutch",0.12,0.06,10,0.82,0.03,10,583,Troell et al. (1997)
+S1,Saccharina latissima,"Oncorhynchus mykiss, Mytilus edulis",1.25,0.125,3,3.75,0.75,3,200,Marinho et al. (2015)

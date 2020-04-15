@@ -1,0 +1,66 @@
+﻿country,production,papers,type
+China,17533590,27,research
+China,17533590,3,review
+Indonesia,9746100,2,research
+South Korea,1761224,4,research
+South Korea,1761224,1,review
+Philippines,1415321,1,research
+Philippines,1415321,1,review
+North Korea,553000,0,NA
+Japan,406500,2,research
+Malaysia,202966,0,NA
+Zanzibar,109810,3,research
+Madagascar,17407,0,NA
+Chile,16799,6,research
+Chile,16799,3,review
+Solomon Islands,10600,0,NA
+Vietnam,10282,0,NA
+Tanzania,7800,1,research
+Papua New Guinea,4300,0,NA
+Kiribati,3650,0,NA
+Cambodia,2200,0,NA
+India,2000,2,research
+Russia,1517,1,research
+Timor-Leste,1500,0,NA
+South Africa,862,1,research
+Taiwan,839,3,research
+Sri Lanka,692,0,NA
+Fiji,550,0,NA
+Kenya,400,0,NA
+Myanmar,171,0,NA
+Greece,152,0,NA
+Norway,149,3,research
+Norway,149,2,review
+Namibia,130,0,NA
+Portugal,0,33,research
+Portugal,0,2,review
+Canada,0,10,research
+Canada,0,4,review
+USA,0,7,research
+USA,0,3,review
+Germany,0,4,research
+Germany,0,4,review
+UK,0,4,research
+UK,0,2,review
+Israel,0,7,research
+Israel,0,3,review
+Denmark,0,3,research
+Denmark,0,1,review
+Sweden,0,1,research
+Sweden,0,1,review
+Brazil,0,4,research
+Brazil,0,1,review
+Spain,0,4,research
+Spain,0,1,review
+Mexico,0,6,research
+Australia,0,4,research
+Italy,0,3,research
+Ireland,0,3,research
+France,0,2,research
+New Zealand,0,1,research
+Egypt,0,1,research
+Senegal,0,1,research
+Thailand,0,1,research
+Turkey,0,1,research
+Ecuador,0,1,research
+Cyprus,0,1,research
