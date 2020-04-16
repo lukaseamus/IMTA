@@ -13,4 +13,4 @@ Data files for each figure:
 3. `plants.csv`: Groups of plants and their co-cultured animals in IMTA systems referred to in the literature.
 
 **Figure 2**
-1. `ammonium.csv`: Reported ammonium uptake (\mu mol NH<sub>4</sub><sup>+</sup> gDW<sup>-1</sup> h<sup>-1</sup>) for different macroalgae.
+1. `ammonium.csv`: Reported ammonium uptake (μmol NH<sub>4</sub><sup>+</sup> gDW<sup>-1</sup> h<sup>-1</sup>) for different macroalgae.
