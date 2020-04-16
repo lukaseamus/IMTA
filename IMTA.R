@@ -1,4 +1,4 @@
-##### Project: Review of literature on plant-based integrated multitrophic aquaculture (IMTA)
+##### Project: Review of literature on plant-based integrated multi-trophic aquaculture (IMTA)
 
 #### Required packages
 require(ggplot2)
