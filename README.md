@@ -31,7 +31,7 @@ Data files for each figure:
 
 2. `seaweeds.csv`: Seaweed production (Reference: http://www.fao.org/3/i9540en/i9540en.pdf) and number of papers (Web of Science) for all seaweeds that have a global production of at least 34×10<sup>3</sup> t and appear in the scientific literature on plant-related IMTA.
 
-3. `image.png`: Photograph of female-driven tropical seaweed farming in Zanzibar.
+3. `image.png`: Photograph of female-driven tropical seaweed farming in Zanzibar (Credits: Jose Paula, 2014).
 
 
 Luka Seamus Wright
