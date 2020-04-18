@@ -6,7 +6,7 @@ The R code needed to perform the meta-analysis and plot the four figures is cont
 Data files for each figure:
 
 **Figure 1**
-1. `citations.csv`: Web of Science citations report on "IMTA" and "IMTA AND (plant* OR seaweed* OR kelp* OR macroalga* OR alga*).
+1. `citations.csv`: Web of Science citations report on "IMTA" and "IMTA AND (plant* OR seaweed* OR kelp* OR macroalga* OR alga*)".
 
 2. `findings.csv`: Findings of plant-related IMTA papers categorised into positive, negative and neutral as well as primary purpose of plant integration.
 
