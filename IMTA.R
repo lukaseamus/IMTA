@@ -33,7 +33,7 @@ mytheme <- theme(panel.background = element_blank(),
 #### Figure 1. Categorisation of literature
 ### Citations
 ## Load data
-citations <- read.csv("~/Desktop/Plymouth University/MBIO363/IMTA/Data/citations.csv")
+citations <- read.csv("~/PATH/citations.csv")
 
 ## Plot data
 citations.plot <- ggplot(data = citations, aes(year, citations, fill = group)) +
@@ -54,7 +54,7 @@ citations.plot # print (save as 4.5 x 5.5 in)
 
 ### Findings
 ## Load data
-findings <- read.csv("~/Desktop/Plymouth University/MBIO363/IMTA/Data/findings.csv")
+findings <- read.csv("~/PATH/findings.csv")
 
 ## Plot data
 findings.plot <- ggplot(data = findings, aes(fct_relevel(findings, "+", "="), papers)) +
@@ -80,7 +80,7 @@ findings.plot # print (save as 4.5 x 3.5 in)
 
 ### Plants
 ## Load data
-plants <- read.csv("~/Desktop/Plymouth University/MBIO363/IMTA/Data/plants.csv")
+plants <- read.csv("~/PATH/plants.csv")
 
 ## Plot data
 plants.plot <- ggplot(data = plants, aes(fct_relevel(plant, "macroalgae", "angiosperms"), papers)) +
@@ -116,7 +116,7 @@ fig.1 # print (save as 4.5 x 12.5 in)
 #### Figure 2. Data extraction and meta-analysis
 ### Ammonium uptake
 ## Load data
-ammonium <- read.csv("~/Desktop/Plymouth University/MBIO363/IMTA/Data/ammonium.csv")
+ammonium <- read.csv("~/PATH/ammonium.csv")
 
 ## Plot data
 ammonium.plot <- ggplot(data = ammonium, aes(fct_reorder(id, mean), mean)) +
@@ -140,7 +140,7 @@ ammonium.plot # print (save as 4.5 x 5 in)
 
 ### Biofiltration
 ## Load data
-biofiltration <- read.csv("~/Desktop/Plymouth University/MBIO363/IMTA/Data/biofiltration.csv")
+biofiltration <- read.csv("~/PATH/biofiltration.csv")
 
 ## Calculate Hedges' g and associated variables
 g <- with(biofiltration, esc_mean_se(grp1m = mean.imta, grp1se = se.imta, grp1n = n.imta, 
@@ -179,7 +179,7 @@ biofiltration.plot
 
 ### Growth
 ## Load data
-growth <- read.csv("~/Desktop/Plymouth University/MBIO363/IMTA/Data/growth.csv")
+growth <- read.csv("~/PATH/growth.csv")
 
 ## Calculate Hedges' g and associated variables
 g <- with(growth, esc_mean_se(grp1m = mean.imta, grp1se = se.imta, grp1n = n.imta, 
@@ -250,7 +250,7 @@ fig.2 # print (save as 4.5 x 12.5 in)
 ### World map
 ## Load data
 # Seaweed production and income per country (http://www.fao.org/3/ca5495t/ca5495t.pdf)
-production <- read.csv("~/Desktop/Plymouth University/MBIO363/IMTA/Data/production.csv")
+production <- read.csv("~/PATH/production.csv")
 
 # Country polygon data
 data("wrld_simpl")
@@ -258,13 +258,13 @@ wrld_simpl@data$id <- wrld_simpl@data$NAME
 land <- fortify(wrld_simpl, region = "id")
 
 # Areas of coastal hypoxia (doi: 10.1126/science.1156401)
-hypoxia <- read.csv("~/Desktop/Plymouth University/MBIO363/IMTA/Data/hypoxia.csv")
+hypoxia <- read.csv("~/PATH/hypoxia.csv")
 
 # Mean present sea surface temperature data (https://www.bio-oracle.org/downloads-to-email.php)
-present.SST <- brick("~/Desktop/Plymouth University/MBIO363/IMTA/Data/Present.Surface.Temperature.Mean.asc")
+present.SST <- brick("~/PATH/Present.Surface.Temperature.Mean.asc")
 
 # Mean future (2100) sea surface temperature data (RCP8.5)
-future.SST <- brick("~/Desktop/Plymouth University/MBIO363/IMTA/Data/2100AOGCM.RCP85.Surface.Temperature.Mean.asc")
+future.SST <- brick("~/PATH/2100AOGCM.RCP85.Surface.Temperature.Mean.asc")
 
 # Caclulate climate differential, i.e. change in SST between now and 2100
 change.SST <- future.SST - present.SST
@@ -336,7 +336,7 @@ map # print (save as 4.5 x 3 in)
 #### Figure 4. Literature imbalance
 ### Seaweed production vs. research effort
 ## Load data
-countries <- read.csv("~/Desktop/Plymouth University/MBIO363/IMTA/Data/countries.csv")
+countries <- read.csv("~/PATH/countries.csv")
 
 ## Extract data for China, Indonesia, Malaysia, Norway, Canada, Portugal
 countries <- countries[c(1:3,10,31:32,34:37),]
@@ -375,7 +375,7 @@ countries.plot # print (save as 4.5 x 3.5 in)
 
 ### Seaweed taxa
 ## Load data
-seaweeds <- read.csv("~/Desktop/Plymouth University/MBIO363/IMTA/Data/seaweeds.csv")
+seaweeds <- read.csv("~/PATH/seaweeds.csv")
 
 ## Extract relevant data
 seaweeds <- seaweeds[1:9,]
@@ -411,7 +411,7 @@ seaweeds.plot # print (save as 4.5 x 5.5 in)
 
 ### Seaweed farming image
 ## Load data
-image <- readPNG("~/Desktop/Plymouth University/MBIO363/IMTA/Figures/image.png")
+image <- readPNG("~/PATH/image.png")
 
 ## Plot data
 image.plot <- ggplot() + 
