@@ -1,5 +1,5 @@
 # IMTA
-Data and R scripts accompanying the literature review *Integrating plants improves aquaculture* on the benefits that plants provide in integrated multi-trophic aquaculture (IMTA) systems.
+This repository contains data and R code accompanying the literature review *Integrating plants improves aquaculture* on the benefits that plants provide in integrated multi-trophic aquaculture (IMTA) systems.
 
 The R code needed to perform the meta-analysis and plot the four figures is contained in the `IMTA.R` file.
 
